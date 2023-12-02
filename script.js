@@ -16,3 +16,8 @@ function hideNav() {
     navbarToggler.classList.remove('show');
   }
 }
+
+function sendEmail()
+{
+  window.location.assign("mailto:abaines1@vols.utk.edu");
+}

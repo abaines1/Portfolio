@@ -46,7 +46,7 @@ nav {
   background: no-repeat center/cover 
   linear-gradient(rgba(0,0,0, .4), rgba(0,0,0, .7)),
   url("img/herobackground.jpeg");
-  min-height: 75vh;
+  min-height: 100vh;
   width: 100%;
   padding: 20%;
   text-align: center;
@@ -96,6 +96,7 @@ nav {
 }
 
 #contact-icon {
+  color: white;
   font-size: 70px;
   margin-bottom: 70px;
 }
@@ -103,3 +104,17 @@ nav {
 #contact-icon:hover {
   color: #001847;
 }
+
+.carousel-inner > .item > .img{
+  height: 300px;
+  object-fit: contain;
+}
+
+.carousel-control-prev-icon {
+  position: absolute;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+}
+
