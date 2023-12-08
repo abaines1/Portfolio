@@ -7,7 +7,7 @@ function onScroll() {
   } else {
     document.body.classList.add("scroll-top");
   }
-} 
+}
 
 function hideNav() {
   // Close the collapsed navbar by selecting the button and remove show class
@@ -17,7 +17,6 @@ function hideNav() {
   }
 }
 
-function sendEmail()
-{
+function sendEmail() {
   window.location.assign("mailto:abaines1@vols.utk.edu");
 }
