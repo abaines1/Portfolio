@@ -14,7 +14,6 @@
   animation: 1.5s fadeInUp;
 }
 
-
 html,
 body {
   margin: 0;
@@ -30,7 +29,6 @@ body {
 }
 
 section {
-  margin-bottom: 225px;
   scroll-margin-top: 10rem;
 }
 
@@ -62,7 +60,7 @@ nav {
 
 .display-1 {
   font-family: 'Gabarito', sans-serif;
-  margin-bottom: 75px;
+  /*margin-bottom: 75px;*/
   text-align: center;
 }
 
@@ -70,10 +68,19 @@ nav {
   padding-top: 35vh;
 }
 
+/*#aboutme-section {*/
+/*  margin: 10px;*/
+/*}*/
+
 .hero p {
   padding-top: 20px;
 }
 
+.carousel-inner > .carousel-item > img {
+  max-width: 50%;
+  max-height: 50%;
+  border: 5px solid white;
+}
 
 #hero-section,
 #hero-section-small {
@@ -150,24 +157,31 @@ nav {
   color: #001847;
 }
 
-#rel-courses,
-#about-me {
-  font-size: 20px;
+
+/*Task: Change SASS variables to use bootstrap padding utilitiy instead*/
+#introduction,
+#relevantskills{
+
+  padding-right: 6rem;
+  padding-left: 6rem;
+
 }
-
-
-.carousel {
-  border: white 5px solid;
-  border-radius: 5px;
-}
-
 
 .carousel-control-prev,
 .carousel-control-next {
-  scale: 200%;
-  opacity: 1;
+  width: auto;
+  color: #000; /* Change the color as needed */
+  text-align: center;
+  opacity: 1; /* Adjust the opacity as desired */
+  top: 50%; /* Position controls vertically in the middle */
+  transform: translateY(-50%);
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .experiences:hover {
   background-color: white;
 }
+
+
+

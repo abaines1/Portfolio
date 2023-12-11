@@ -20,3 +20,14 @@ function hideNav() {
 function sendEmail() {
   window.location.assign("mailto:abaines1@vols.utk.edu");
 }
+
+function responsiveCarousel() {
+  let carouselImages = document.getElementById('myCarousel').getElementsByTagName('img');
+  let introduction = document.getElementById('introduction').offsetHeight;
+  console.log(carouselImages)
+  // for(x=0; x<carouselImages.length; x++) {
+  //   if(carouselImages[x].getElementsByTagName('img')) {
+  //     console.log(carouselImages[x]);
+  //
+  //   }
+}
