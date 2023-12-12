@@ -19,6 +19,9 @@
   .carousel-inner > .carousel-item > img {
     max-width: 70% !important;
   }
+  #introduction {
+    padding-left: 4rem;
+  }
 }
 
 html,
@@ -37,8 +40,8 @@ body {
 
 section {
   margin-top: 10vw;
-  scroll-margin-top: 10rem;
   margin-bottom: 10vw;
+  scroll-margin-top: 3rem;
 }
 
 nav {
@@ -168,8 +171,8 @@ nav {
 
 /*Task: Change SASS variables to use bootstrap padding utilitiy instead*/
 #relevant-skills{
-  padding-right: 6rem;
-  padding-left: 6rem;
+  /*padding-right: 6rem;*/
+  /*padding-left: 6rem;*/
 
   font-family: sans-serif;
 }
